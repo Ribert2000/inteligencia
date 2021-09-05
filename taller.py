@@ -51,3 +51,18 @@ edad = int(input('Escriba su edad: '))
 pulsTotal = puls(edad)
 
 print('Sus pulsaciones cada 10 segundos son: {}'.format(pulsTotal))
+
+#ej3
+per1 = float(input('Persona 1 digite su inversión: '))
+per2 = float(input('Persona 2 digite su inversión: '))
+per3 = float(input('Persona 3 digite su inversión: '))
+
+totalInv=(per1+per2+per3)
+
+per1Inv=((per1/totalInv)*100)
+per2Inv=((per2/totalInv)*100)
+per3Inv=((per3/totalInv)*100)
+
+print('El porcentaje de la persona 1 es: {}'.format(per1Inv))
+print('El porcentaje de la persona 2 es: {}'.format(per2Inv))
+print('El porcentaje de la persona 3 es: {}'.format(per3Inv))
