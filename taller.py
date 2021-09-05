@@ -24,3 +24,17 @@ print("El resultado es: ", y)
 #n=( (8+2-4)^2 * 5+8+7/2 -30*5 ) / 2 * 5 -3
 #m= z^2*3+n
 #y = ((( (z+2-n)^2 x m+8/2 -30 ) / 2 * 5 -3)^ 5 + 15 * 3 - 9/3) ^ 2 – 5/4
+
+#Realizar los algoritmos que den solución a la problemática presentada 
+#en los siguientes ejercicios:
+
+#ej1
+def masa(presion, volumen, temperatura):
+    
+    return (presion * volumen) / (0.37 * (temperatura + 460))
+
+presion = float(input('Digite la presion:'))
+volumen = float(input('Digite el volumen:'))
+temperatura = float(input('Digite la temperatura:'))
+
+masaT = masa(presion, volumen, temperatura)
