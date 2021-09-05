@@ -137,3 +137,14 @@ precioPo = (precioTo * 0.16)
 precioFi = (precioTo + precioPo)
 
 print('El monto que tiene que pagar por su revelado es: {}'.format(precioFi))
+
+#ej11
+montoPre = float(input('Digite el monto presupuesta: '))
+
+gin = (montoPre * 0.40)
+tra = (montoPre * 0.30)
+ped = (montoPre * 0.30)
+
+print('El area Ginecologia tendra {} del valor presupuestal'.format(gin))
+print('El area Traumatologia tendra {} del valor presupuestal'.format(tra))
+print('El area Pediatria tendra {} del valor presupuestal'.format(ped))
