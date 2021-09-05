@@ -148,3 +148,12 @@ ped = (montoPre * 0.30)
 print('El area Ginecologia tendra {} del valor presupuestal'.format(gin))
 print('El area Traumatologia tendra {} del valor presupuestal'.format(tra))
 print('El area Pediatria tendra {} del valor presupuestal'.format(ped))
+
+#ej12
+peliculasA = int(input('Digite la cantidad de peliculas alquiladas: '))
+diasA = int(input('Digite la cantidad de dias de alquiler: '))
+DVD = 1500
+
+totalP = ((peliculasA-1) * diasA * DVD)
+
+print('El monto total a pagar es: {}'.format(totalP))
