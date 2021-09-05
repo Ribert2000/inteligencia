@@ -38,3 +38,16 @@ volumen = float(input('Digite el volumen:'))
 temperatura = float(input('Digite la temperatura:'))
 
 masaT = masa(presion, volumen, temperatura)
+
+print('La masa calculada es: {}'.format(masaT))
+
+#ej2
+def puls(edad):
+    
+    return (200-edad)/10
+
+edad = int(input('Escriba su edad: '))
+
+pulsTotal = puls(edad)
+
+print('Sus pulsaciones cada 10 segundos son: {}'.format(pulsTotal))
