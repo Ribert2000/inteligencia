@@ -118,3 +118,13 @@ montoPagar = (sueldoTotal - descConcepto)
 
 print('Su descuento es: {}'.format(descConcepto))
 print('Su sueldo final es: {}'.format(montoPagar))
+
+#ej9
+montoI = float(input('Digite su monto inicial: '))
+montoF = float(input('Digite su monto final: '))
+
+costoL = (montoI - montoF)
+porL = (costoL * 0.20)
+costoF = (costoL + porL)
+
+print('El costo de su llamada fue: {}'.format(costoF))
