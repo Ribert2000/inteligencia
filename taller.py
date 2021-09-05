@@ -128,3 +128,12 @@ porL = (costoL * 0.20)
 costoF = (costoL + porL)
 
 print('El costo de su llamada fue: {}'.format(costoF))
+
+#ej10
+fotosRev = int(input('Digite cuantas fotos tiene su revelado: '))
+
+precioTo = (fotosRev * 1500)
+precioPo = (precioTo * 0.16)
+precioFi = (precioTo + precioPo)
+
+print('El monto que tiene que pagar por su revelado es: {}'.format(precioFi))
