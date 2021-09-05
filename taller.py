@@ -93,3 +93,16 @@ descCajaA=(sueldoBase * 0.05)
 descTotal=(descLey+descSeguroS+descSeguroF+descCajaA)
 
 print('Su monto total a pagar es: {}'.format(descTotal))
+
+#ej6
+palAviso = float(input('Digite el numero de palabras de su aviso: '))
+centAviso = float(input('Digite el numero de centimetros de su aviso: '))
+colAviso = float(input('Digite el numero de colores de su aviso: '))
+
+palTotal=(palAviso * 20000)
+centTotal=(centAviso * 15000)
+colTotal=(colAviso * 25000)
+
+montoPagar=(palTotal+centTotal+colTotal)
+
+print('El monto a pagar por su aviso clasificado es: {}'.format(montoPagar))
