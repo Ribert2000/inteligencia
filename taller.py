@@ -178,3 +178,16 @@ if cantidadD==0:
     print("Su monto a cancelar es: ",0)
 if cantidadD>1:
     print("Su monto a cancelar es: ",((cantidadD-1)*200000)+100000)
+    
+#ej15
+montoP = float(input('Digite el monto de su prestamo: '))
+
+montoI = (montoP * 0.24)
+montoT = (montoI + montoP)
+mitadM = (montoT * 0.50)
+cuotasE = (mitadM / 4)
+cuotasO = (mitadM / 20)
+
+print('Su monto total a pagar por el prestamo es: {}'.format(montoT))
+print('Su monto total a pagar en las cuotas especiales es: {}'.format(cuotasE))
+print('Su monto total a pagar por el prestamo es: {}'.format(cuotasO))   
