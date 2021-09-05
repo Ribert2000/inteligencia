@@ -81,3 +81,15 @@ montoBank = float(input('Digite el valor total de sus ahorros: '))
 saldoFin=(montoBank * 0.015)
 
 print('Su saldo al final sera de: {}'.format(saldoFin))
+
+#ej5
+sueldoBase = float(input('Digite su sueldo para realizar sus decuentos: '))
+
+descLey=(sueldoBase * 0.01)
+descSeguroS=(sueldoBase * 0.04)
+descSeguroF=(sueldoBase * 0.005)
+descCajaA=(sueldoBase * 0.05)
+
+descTotal=(descLey+descSeguroS+descSeguroF+descCajaA)
+
+print('Su monto total a pagar es: {}'.format(descTotal))
