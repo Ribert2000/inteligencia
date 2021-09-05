@@ -108,3 +108,13 @@ if añosLab==0:
     print("Su bono final es de: ",0)
 if añosLab>1:
     print("Su bono final es de: ",((añosLab-1)*120000)+100000)
+    
+#ej8
+hrsTrabajadas = float(input('Digite sus horas trabajadas profe: '))
+
+sueldoTotal = (hrsTrabajadas * 20000)
+descConcepto = (sueldoTotal * 0.05)
+montoPagar = (sueldoTotal - descConcepto)
+
+print('Su descuento es: {}'.format(descConcepto))
+print('Su sueldo final es: {}'.format(montoPagar))
