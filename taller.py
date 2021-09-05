@@ -70,14 +70,6 @@ print('El porcentaje de la persona 3 es: {}'.format(per3Inv))
 #ej4
 montoBank = float(input('Digite el valor total de sus ahorros: '))
 
-interesS = (montoBank * 0.015)
-montoFin = (interesS + montoBank)
-
-print('Su saldo al final sera de: {}'.format(montoFin))
-
-#ej4
-montoBank = float(input('Digite el valor total de sus ahorros: '))
-
 saldoFin=(montoBank * 0.015)
 
 print('Su saldo al final sera de: {}'.format(saldoFin))
@@ -106,3 +98,13 @@ colTotal=(colAviso * 25000)
 montoPagar=(palTotal+centTotal+colTotal)
 
 print('El monto a pagar por su aviso clasificado es: {}'.format(montoPagar))
+
+#ej7
+añosLab=int(input("Cuantos años tiene usted en esta empresa: "))
+
+if añosLab==1:
+    print("Su bono final es de: ", 100000)
+if añosLab==0:
+    print("Su bono final es de: ",0)
+if añosLab>1:
+    print("Su bono final es de: ",((añosLab-1)*120000)+100000)
