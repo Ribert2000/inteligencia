@@ -66,3 +66,18 @@ per3Inv=((per3/totalInv)*100)
 print('El porcentaje de la persona 1 es: {}'.format(per1Inv))
 print('El porcentaje de la persona 2 es: {}'.format(per2Inv))
 print('El porcentaje de la persona 3 es: {}'.format(per3Inv))
+
+#ej4
+montoBank = float(input('Digite el valor total de sus ahorros: '))
+
+interesS = (montoBank * 0.015)
+montoFin = (interesS + montoBank)
+
+print('Su saldo al final sera de: {}'.format(montoFin))
+
+#ej4
+montoBank = float(input('Digite el valor total de sus ahorros: '))
+
+saldoFin=(montoBank * 0.015)
+
+print('Su saldo al final sera de: {}'.format(saldoFin))
