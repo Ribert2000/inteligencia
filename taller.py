@@ -168,3 +168,13 @@ totalP = (cantidadP * cantidadD * cobroD * (0.12))
 montoT = (cobroD * cantidadP * cantidadD + totalP)
 
 print('El monto a pagar es: {}'.format(montoT))
+
+#ej14
+cantidadD = int(input("Digite cuantos dias se quedara en el hotel: "))
+
+if cantidadD==1:
+    print("Su monto a cancelar es: ", 100000)
+if cantidadD==0:
+    print("Su monto a cancelar es: ",0)
+if cantidadD>1:
+    print("Su monto a cancelar es: ",((cantidadD-1)*200000)+100000)
