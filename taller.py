@@ -157,3 +157,14 @@ DVD = 1500
 totalP = ((peliculasA-1) * diasA * DVD)
 
 print('El monto total a pagar es: {}'.format(totalP))
+
+#ej13
+cantidadP = int(input('Digite cuantas personas iran al tour: '))
+cantidadD = int(input('Digite cuantos dias estara de viaje: '))
+
+cobroD = 25000
+
+totalP = (cantidadP * cantidadD * cobroD * (0.12))
+montoT = (cobroD * cantidadP * cantidadD + totalP)
+
+print('El monto a pagar es: {}'.format(montoT))
